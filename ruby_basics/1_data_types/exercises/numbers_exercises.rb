@@ -1,11 +1,18 @@
 def add(a, b)
   # return the result of adding a and b
-  a + b
+  result = a + b
+  return result
 end
+
+puts add(2, 2)
 
 def subtract(a, b)
   # return the result of subtracting b from a
+  result = a - b
+  return result
 end
+
+puts subtract(6, 4)
 
 def multiply(a, b)
   # return the result of multiplying a times b
