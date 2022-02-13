@@ -1,8 +1,8 @@
-array = [1, 2, 3, 4, 5]
+# arr = [1, 3, 5, 7, 9, 11]
+# number = 3
 
-def first_element(array)
-    # return the first element of the array
-    array.first
-  end
+# puts arr.include?(number)
 
-first_element
+arr = ["b", "a"]
+   print arr = arr.product(Array(1..3))
+   puts arr.first.delete(arr.first.last)
